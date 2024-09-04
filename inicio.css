@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+nav {
+    background-color: #3ABCB2;
+    padding: 10px;
+}
+
+.encabezado {
+    background-color: #045e56;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #036e55;
+}
+
+.cuerpo {
+    background: linear-gradient(to bottom, #65C5BE, #D5FFFF);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+
+.contorno {
+    display: flex;
+    height: 10px;
+}
+
+.input {
+    padding: 15px;
+    width: 350px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    outline: none;
+    flex: 1;
+}
+
+.botom {
+    background-color: brown !important;
+    padding: 15px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.info {
+    border-radius: 30px;
+    background-color: #045e5771;
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente el párrafo con la imagen */
+    width: 95%;
+    justify-content: center;
+}
+
+.circulo {
+    max-height: 100px;
+    margin-right: 20px;
+    /* Espacio entre la imagen y el párrafo */
+    border-radius: 50%;
+    /* Hace que la imagen sea circular si es cuadrada */
+}
+
+.parrafo {
+    margin: 0;
+    /* Elimina los márgenes del párrafo */
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.titulo {
+    padding-left: 20px;
+    text-align:left;
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    /* Alinea los cuadrados en la parte superior */
+    padding: 20px;
+    /* Espacio alrededor del contenedor */
+}
+
+.verde {
+    width: 200px;
+    height: 800px;
+    background-color: #038325;
+}
+
+.cuadrado {
+    width: 1500px;
+    height: 400px;
+    background-color: #fcfeff;
+    margin-left: 20px;
+    /* Espacio entre los cuadrados */
+}
