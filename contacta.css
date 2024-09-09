@@ -157,3 +157,11 @@ input{
     background-color: #567aea;
     cursor:pointer;
 }
+/*team*/
+::before
+::after{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
